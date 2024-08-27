@@ -1,0 +1,30 @@
+\documentclass[11pt, a4paper, final]{article}
+
+\usepackage{hyperref}
+\hypersetup{
+  pdftitle={TITLE GOES HERE},
+  pdfauthor={AUTHOR GOES HERE},
+  hidelinks,
+  pdfcreator={XeLaTeX}}
+\urlstyle{same}
+
+\usepackage[british]{babel}
+\selectlanguage{british}
+
+\usepackage[style=iso]{datetime2}
+\usepackage[mark]{gitinfo2}
+
+\input{macros}
+
+\title{TITLE GOES HERE}
+\author{AUTHOR GOES HERE}
+\date{\DTMenglishmonthname{\DTMfetchmonth{gitdate}} \DTMfetchyear{gitdate}}
+
+\begin{document}
+
+\maketitle
+{\centering Release:\gitReln\ (\gitAbbrevHash)\\ }
+
+\input{main}
+
+\end{document}
