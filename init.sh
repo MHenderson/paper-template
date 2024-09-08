@@ -24,5 +24,5 @@ rm NEWS.md
 git init
 git switch --create main
 git add --all -- :!init.sh
-git commit -m "Initial commit based on paper-template v0.1.0."
+git commit -m "Initial commit based on paper-template v0.2.0."
 rm init.sh

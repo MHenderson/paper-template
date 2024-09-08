@@ -1,5 +1,10 @@
 # paper-template (development version)
 
+# paper-template (v0.2.0)
+
+* Added a project initialisation script (init.sh).
+* Updated README with documentation about init.sh.
+
 # paper-template (v0.1.0)
 
 * Based on article class.
